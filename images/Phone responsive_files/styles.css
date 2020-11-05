@@ -1,0 +1,45 @@
+/*=====parent-changes=======*/
+*{
+    box-sizing: border-box;
+}
+body{ 
+    
+    line-height: 2.0;
+    background-color: cornsilk;
+}
+.main-header {  
+    background: lightblue;
+    padding: 1em 0;
+}
+.container{
+    margin: 1em auto;
+    text-align: center;
+    font-size: 1.2em;
+}
+a{
+  text-decoration: none;  
+}
+.name{
+    font-size: 4em;
+    margin: 0;
+}
+.name a{
+    color: black;
+}
+.nv{
+    background-color: ;
+    font-size: 2em;
+    
+}
+.nv li{
+    max-width: 95%;
+    margin: 10px 0;
+    background-color: white;
+    list-style-type: none;
+    content: 100%;
+}
+.nv a{
+    background-color: coral;
+    color: chartreuse;
+}
+/*=====nav its a list with a and make a expand so its a full click cover for the NV its self  =======*/
