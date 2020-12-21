@@ -1,0 +1,108 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+  }
+.listed, a, .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+    }
+
+  
+header{
+    background-color: rgb(161, 165, 192);
+    color:rgba(31, 35, 71, 0.897);
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    padding-top:10px;
+    font-size: 8vh;
+    
+} 
+h1{
+    
+    background-color: rgb(161, 165, 192);
+}
+.nav{    
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    border:4px solid white;
+    color: black
+    
+
+}
+.listed {
+    min-width: 80%;
+    padding: 30px;
+    margin: auto;
+    background-color: rgb(53, 99, 197);
+    
+}
+li{  
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    border: 8px solid black;
+}
+ 
+img{
+    width: 95%;
+    height: auto;
+}
+li a{
+    border-bottom: 3px solid red;
+    margin: auto;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: monospace;
+    letter-spacing: 2mm;
+}
+.align{
+    text-align: left;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+/* ===========MEIDA-QUERY================= */
+
+@media screen and (min-width: 760px){
+    /* background-color: #AAA9AD;  */
+.listed{
+     background-color: skyblue;
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-template-rows:repeat(2 ,1fr);
+    
+    
+}
+    li{
+        min-height: 50vh;
+    }
+    li  a{
+        font-size:3em;
+        letter-spacing: 4mm;
+      } 
+      li p{
+          font-size: 20px;
+      }
+}
+
+
+@media screen and (min-width: 1080px){
+    body{
+        max-width: 3000px;
+    }
+    .listed{
+        max-width: 75%;
+    }
+}

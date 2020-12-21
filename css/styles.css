@@ -1,5 +1,6 @@
 /* Global Layout Set-up */
 * { 
+  margin: 0;
   box-sizing: border-box;
 }
   
@@ -50,6 +51,7 @@ a:hover {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
+    color: grey;
   transition: all .5s;
 }
 .nav a:hover {
@@ -58,7 +60,7 @@ a:hover {
 
 header,.back-drop {
   text-align: center;
-  background: url('images/newBack.jpg') no-repeat top center ;
+  background: url('../images/newBack.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -145,14 +147,14 @@ a.social {
   transition: all .5s;
 }
 a.codepen {
-  background-image: url(images/pencile.png);
+  background-image: url(../images/pencile.png);
 }
 a.linkedin {
   background-image: url(images/pencile.svg);
 }
 a.github {
   float: right;
-  background-image: url(images/github.svg);
+  background-image: url(../images/github.svg);
 }
 a.social:hover {
   opacity: 1;
