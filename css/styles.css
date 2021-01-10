@@ -105,7 +105,9 @@ header .profile-image:hover {
 .card:hover {
   border-color: red;
 }
-
+.skills-header{
+  text-align: center;
+}
 ul.skills {
   padding: 0;
   text-align: center;
@@ -123,6 +125,7 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #5fbefd;
 }
+
 
 footer {
   width: 100%;
